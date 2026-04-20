@@ -98,13 +98,7 @@ def generate_final_summary(text, tables, images):
     )
     return response.text
 
-#Test the functions with a sample pdf file and print the final summary
-'''pdf_path = os.path.join(os.path.dirname(__file__), "IEEE_DecentralizedPlatooning.pdf")
-text = extract_text_from_pdf(pdf_path)
-images = extract_and_analyze_images(pdf_path)
-tables = extract_table_info(pdf_path)
-summary = generate_final_summary(text, tables, images)
-print(summary)'''
+
 
 #Develop the User Interface using Streamlit
 st.title("📄 Junior Einstein")
