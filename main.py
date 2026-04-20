@@ -108,7 +108,7 @@ summary = generate_final_summary(text, tables, images)
 print(summary)'''
 
 #Develop the User Interface using Streamlit
-st.title("📄 PaperPal: Science Simplified")
+st.title("📄 Junior Einstein")
 st.write("Upload a dense research paper and get an explanation even a teenager could understand.")
 
 with st.sidebar:
