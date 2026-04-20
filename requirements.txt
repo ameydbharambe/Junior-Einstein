@@ -1,6 +1,6 @@
-streamlit
-pymupdf
+google-genai
 pdfplumber
-google-generativeai
+pymupdf
+streamlit
 python-dotenv
-Pillow 
+pillow
