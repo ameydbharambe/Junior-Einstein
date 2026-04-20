@@ -2,7 +2,6 @@ import os
 from dotenv import load_dotenv
 from google import genai
 import pdfplumber
-from google.cloud import aiplatform
 import pymupdf
 import streamlit as st
 import PIL.Image
